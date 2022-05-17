@@ -1,0 +1,126 @@
+    1  curl http://172.31.0.141:8000
+    2  cd /etc/nginx/sites-enabled/
+    3  ls
+    4  sudo systemctl restart nginx
+    5  sudo nginx -t
+    6  cat /etc/nginx/conf.d/load-balancer.conf 
+    7  curl http://172.31.0.141:3000
+    8  cd ~
+    9  ls
+   10  mkdir 2
+   11  cd 2
+   12  vi index2.ja
+   13  vi index2.js
+   14  node index2.js 
+   15  cat /etc/nginx/conf.d/load-balancer.conf 
+   16  sudo vi /etc/nginx/conf.d/load-balancer.conf
+   17  cat /etc/nginx/conf.d/load-balancer.conf 
+   18  sudo nginx -t
+   19  sudo systemctl restart nginx
+   20  cat /etc/os-release 
+   21  mkdir site 1
+   22  mkdir site1
+   23  mkdir site2
+   24  cd site1
+   25  git clone https://github.com/soumyajit4419/Portfolio.git
+   26  sudo npm install
+   27  cd Portfolio/
+   28  sudo npm install
+   29  sudo npm start
+   30  sudo kill pid 14460
+   31  npx kill-port 3000
+   32  npx kill-port 8000
+   33  sudo npm start
+   34  npx kill-port 3000
+   35  cd ..
+   36  mkdir gopir
+   37  cd gopir/
+   38  ls
+   39  git clone https://github.com/yvenkets/Portfolio.git
+   40  cd Portfolio/
+   41  ls
+   42  cd ..
+   43  rm -rf Portfolio/
+   44  ls
+   45  git clone https://github.com/gopi15699/My-Resume.git
+   46  cd My-Resume/
+   47  ls
+   48  cd ..
+   49  ls
+   50  cd Portfolio/
+   51  ls
+   52  cat package.json 
+   53  cd src/
+   54  ls
+   55  cd components/
+   56  ls
+   57  cd ho
+   58  cd Home/
+   59  ls
+   60  cat ho
+   61  cat Home
+   62  cat Home.js 
+   63  cd ..
+   64  ls
+   65  cd ..
+   66  ls
+   67  cat package.json 
+   68  vi package.json 
+   69  cat package.json 
+   70  sudo npm install
+   71  sudo npm start
+   72  npm run build
+   73  sudo npm run build
+   74  cd ..
+   75  cd site2/
+   76  ls
+   77  cd ..
+   78  ls
+   79  git clone https://github.com/yvenkets/Portfolio.git
+   80  cd Portfolio/
+   81  ls
+   82  cat package.json 
+   83  vi package.json 
+   84  ls
+   85  cd src/components/
+   86  ls
+   87  cd Home/
+   88  ls
+   89  cat Home.js 
+   90  vi Home.js 
+   91  ls
+   92  cd ..
+   93  ls
+   94  cd ..
+   95  ls
+   96  cd ..
+   97  ls
+   98  sudo npm install
+   99  sudo npm start
+  100  cd site2/
+  101  ls
+  102  git clone https://github.com/yvenkets/Portfolio.git
+  103  cd Portfolio/
+  104  ls
+  105  sudo npm install
+  106  sudo npm start
+  107  sudo vi /etc/nginx/conf.d/load-balancer.conf 
+  108  sudo nginx -t
+  109  sudo systemctl restart nginx
+  110  ls
+  111  cd Portfolio/
+  112  ls
+  113  cat package
+  114  cat package.json 
+  115  cd Portfolio/
+  116  ls
+  117  npm start
+  118  sudo npm start
+  119  cat /etc/os-release 
+  120  exit
+  121  history
+  122  curl http://172.31.0.141:8000
+  123  history > history.txt
+  124  sudo history > history.txt
+  125  cd ~
+  126  history > history.txt
